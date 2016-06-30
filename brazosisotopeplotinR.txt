@@ -1,0 +1,8 @@
+with(brazosdDandd18O, plot(d18O, dD, xlab="d18O per mil  VSMOW", ylab = "dD per mil VSMOW")) 
+with(brazosdDandd18O, lm(dD ~ d18O))
+#Coefficients:
+#  (Intercept)         d18O  
+#-2.958        5.515  
+with(brazosdDandd18O, abline(lm(dD ~ d18O)))
+
+
